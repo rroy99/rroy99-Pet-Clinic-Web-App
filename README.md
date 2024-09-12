@@ -4,7 +4,7 @@ This web application is developed for a veterinary clinic. The application featu
 
 1. **admin**
     - Can access all features.
-2. **dokter**
+2. **doctor**
     - Can input administrative data.
     - Can record patient diagnosis results.
 
