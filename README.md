@@ -1,32 +1,30 @@
-# Aplikasi Klinik
+# Pet-Clinic-Web-App
 
-Aplikasi Klinik ini dikembangkan untuk keperluan Materi Perkuliahan Web || di Kampus UNAMA | Universitas Dinamika Bangsa. Aplikasi ini memiliki 3 role:
+This web application is developed for a veterinary clinic. The application features 2 roles:
 
 1. **admin**
-    - Bisa mengakses semua fitur
-2. **operator**
-    - Hanya Fitur administrasi
-3. **dokter**
-    - Operator dapat melakukan input administrasi.
-    - Dokter dapat menginput data hasil diagnosa pasien.
+    - Can access all features.
+2. **dokter**
+    - Can input administrative data.
+    - Can record patient diagnosis results.
 
-## Cara Penggunaan
+## Instructions
 
-1. **Clone atau Download Repository:**
+1. **Clone or Download Repository:**
 
     ```bash
-    git clone https://github.com/a3m-nix/klinik-app.git
+    git clone https://github.com/rroy99/rroy99-Pet-Clinic-Web-App.git
     ```
 
-2. **Buka Project dengan VSCode lalu Rename File `.env.example` menjadi `.env` (jika dilinux):**
+2. **Open Project in VSCode and Rename the .env.example File to .env:**
 
     ```bash
-    mv .env.example .env
+   cp .env.example .env  
     ```
 
-3. **Konfigurasi Database:**
+3. **Configure Database:**
 
-    - Buka file `.env` dan konfigurasi nama database sesuai kebutuhan:
+    - Open the .env file and set up the database name as needed:
         ```env
         DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
@@ -73,5 +71,5 @@ Aplikasi Klinik ini dikembangkan untuk keperluan Materi Perkuliahan Web || di Ka
     ```
 
 10. **Login dengan Akun:**
-    - Pengguna: admin@admin.com
-    - Kata Sandi: 1
+    - Username: admin@admin.com
+    - Password: 1
