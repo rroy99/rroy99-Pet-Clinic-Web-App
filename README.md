@@ -70,6 +70,6 @@ This web application is developed for a veterinary clinic. The application featu
     php artisan serve
     ```
 
-10. **Login dengan Akun:**
+10. **Login with Account:**
     - Username: admin@admin.com
     - Password: 1
