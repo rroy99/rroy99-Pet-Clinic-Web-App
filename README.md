@@ -1,6 +1,6 @@
 # Pet-Clinic-Web-App
 
-This web application is developed for a veterinary clinic. The application features 2 roles:
+This web application is developed for a pet clinic and it's free to use. The application features 2 roles:
 
 1. **admin**
     - Can access all features.
@@ -73,3 +73,5 @@ This web application is developed for a veterinary clinic. The application featu
 10. **Login with Account:**
     - Username: admin@admin.com
     - Password: 1
+   
+If you find this project useful, don't forget to follow for future innovations.
